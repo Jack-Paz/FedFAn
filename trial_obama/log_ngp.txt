@@ -7844,3 +7844,3881 @@
 [INFO] load at epoch 28, global step 203616
 ==> Start Test, save results to trial_obama/results
 ==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-14-40 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-20-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-26-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-32-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-39-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-46-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-52-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_15-57-53 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-03-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-09-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-14-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-21-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-27-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-33-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-40-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-45-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-50-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_16-57-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-02-16 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-07-55 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-13-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-19-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-24-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-29-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-34-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-40-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-47-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-52-23 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_17-57-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-04-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-09-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-13-53 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-19-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-25-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-30-53 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-36-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-41-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-46-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-51-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_18-58-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-04-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-09-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-14-50 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-21-50 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-27-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-32-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-39-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-46-21 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-51-12 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_19-56-20 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-03-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-10-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-17-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-22-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-28-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-34-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-02_20-39-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-45-11 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-50-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_20-56-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-01-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-08-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-15-21 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-21-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-28-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-33-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-39-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-46-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-50-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_21-55-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-01-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-06-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-13-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-18-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-25-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-29-58 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-35-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-40-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-46-45 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-51-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_22-57-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-04-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-11-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-15-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-21-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-26-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-31-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-38-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-44-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-51-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-02_23-56-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-01-57 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-06-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-12-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-18-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-25-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-32-45 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-39-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-46-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_00-53-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-00-24 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-07-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-13-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-18-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-25-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-30-16 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-35-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-40-12 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-45-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-50-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_01-55-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-01-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-06-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-11-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-17-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-22-05 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-28-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-33-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-39-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-45-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-51-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_02-56-14 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-02-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-06-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-13-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-19-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-24-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-29-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-34-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-41-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-46-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-53-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_03-58-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-04-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-08-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-14-20 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-19-11 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-25-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-31-16 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-36-53 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-43-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-48-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_04-55-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-02-06 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-08-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-03_05-13-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-20-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-26-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-31-42 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-37-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-44-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-49-45 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_05-56-11 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-02-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-08-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-14-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-20-11 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-26-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-33-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-39-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-44-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-50-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_06-57-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-03-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-10-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-17-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-24-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-28-55 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-35-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-41-45 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-47-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-53-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_07-58-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-04-18 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-09-58 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-15-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-20-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-26-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-32-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-37-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-44-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-49-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_08-56-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-01-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-07-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-12-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-17-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-24-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-30-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-35-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-42-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-49-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-54-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_09-59-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-06-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-13-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-18-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-23-36 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-30-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-37-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-43-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-48-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_10-54-24 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-00-18 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-05-57 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-11-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-18-23 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-25-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-31-05 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-37-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-03_11-43-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-48-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_11-55-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-01-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-03_12-06-29 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-13-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-20-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-27-29 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-34-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-39-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-44-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-50-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_12-55-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-03-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-10-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-15-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-21-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-28-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-34-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-40-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-46-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-52-36 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_13-58-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-04-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-09-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-17-14 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-24-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-30-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-35-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-40-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-47-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-53-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_14-59-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-05-23 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-10-50 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-16-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-22-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-27-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-33-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-39-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-46-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-53-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_15-59-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-03_16-04-50 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-10-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-16-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-03_16-22-18 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-27-24 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-32-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-37-57 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-43-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-50-05 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_16-57-05 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-03-18 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-08-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-15-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-20-24 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-25-18 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-31-06 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-37-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-42-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-49-53 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_17-55-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-02-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-09-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-16-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-23-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-29-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-36-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-41-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-47-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_18-54-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-00-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-05-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-11-29 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-16-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-23-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-29-58 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-03_19-35-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-40-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-45-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-50-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_19-55-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-00-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-06-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-11-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-16-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-21-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-28-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-34-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-40-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-47-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-54-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_20-59-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-05-16 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-10-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-16-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-21-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-26-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-31-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-38-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-44-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-49-20 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_21-55-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-00-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-06-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-12-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-19-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-26-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-33-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-39-14 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-46-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-53-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_22-59-33 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-06-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-11-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-16-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-21-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-28-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-33-12 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-38-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-44-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-50-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-03_23-56-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-04_00-03-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-10-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-15-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-22-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-28-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-33-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-39-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-45-21 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-50-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_00-56-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-01-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-07-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-12-29 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-18-24 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-24-18 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-29-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-35-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-41-59 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-46-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-52-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_01-58-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-05-29 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-10-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-15-45 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-22-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-29-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-35-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-42-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-47-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-53-05 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_02-59-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-05-56 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-11-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-16-11 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-22-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-27-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-32-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-38-38 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-45-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-50-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_03-55-36 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-00-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-05-16 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-11-40 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-16-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-22-55 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-28-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-33-57 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-40-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-45-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-51-42 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_04-57-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-02-42 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-08-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-04_05-14-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-21-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-26-16 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-31-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-36-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-41-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-47-45 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-52-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_05-58-14 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_06-03-06 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_06-08-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_06-15-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_06-20-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_06-25-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_12-59-09 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-04-23 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-11-36 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-16-40 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-23-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-28-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-34-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-41-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-47-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-52-51 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_13-58-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-04-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-11-00 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-16-40 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-21-49 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-27-46 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-33-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-40-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-46-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_14-53-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-00-02 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-04-57 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-11-07 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-17-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-04_15-24-11 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-30-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-37-12 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-44-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-49-36 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-54-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_15-59-47 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-05-41 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-11-37 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-18-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-25-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-30-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-37-04 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-44-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-49-13 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-54-23 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_16-59-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-06-30 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-12-10 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-18-52 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-25-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-31-34 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-36-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-43-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-48-48 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_17-54-42 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-01-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-07-58 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-14-42 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-20-23 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-27-21 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-34-20 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-40-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-04_18-47-25 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-53-20 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_18-58-43 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-04-22 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-11-19 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-16-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-23-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-30-29 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-37-28 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-04_19-44-27 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-08-32 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-05_16-17-01 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+[INFO] Trainer: ngp | 2023-02-05_16-42-15 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-42-55 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-45-39 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-57-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-57-50 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-58-08 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-58-26 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-58-44 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-59-03 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-59-21 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-59-40 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_16-59-58 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_17-00-17 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_17-00-35 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_17-00-54 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_17-01-12 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2023-02-05_17-01-31 | cuda | fp16 | trial_obama/
+[INFO] #parameters: 4231701
+[INFO] Loading RAD-NeRF/data/pretrained/obama_eo.pth ...
+[INFO] loaded model.
+[WARN] missing keys: ['density_grid']
+[INFO] load at epoch 28, global step 203616
+==> Start Test, save results to trial_obama/results
+==> Finished Test.

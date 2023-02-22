@@ -6,6 +6,8 @@ import tqdm
 import numpy as np
 from scipy.spatial.transform import Slerp, Rotation
 import matplotlib.pyplot as plt 
+from pathlib import Path
+import re
 
 import trimesh
 
@@ -308,6 +310,521 @@ class NeRFDataset_Test:
         return loader
 
 
+
+def get_lrs_pathdict(input_folder, preload=0, use_ints=True):
+    '''
+    input is lrs folder (train or valid) with subfolders for speakers
+    preload opens and stores things in ram not as paths 
+    '''
+    input_folder = Path(input_folder)
+    out_dict = {}
+    n_speakers = 0
+    n_videos = 0
+    speaker_vid_tups = []
+    for i, speaker in enumerate(os.listdir(input_folder)):
+        n_speakers +=1
+        speakerfolder = f'{input_folder}/{speaker}'
+        if use_ints:
+            idx = i
+        else:
+            idx = speaker
+        out_dict[idx] = {} 
+        vidnames = [x for x in os.listdir(speakerfolder) if os.path.isdir(f'{speakerfolder}/{x}')] 
+        for j, vid in enumerate(sorted(vidnames)):
+            n_videos +=1
+            if use_ints:
+                jdx = j
+            else:
+                jdx = vid
+            # speaker_vid_tups.append((idx, jdx))
+            out_dict[idx][jdx] = {}
+            vidpath = f'{speakerfolder}/{vid}'
+            imglist = []
+            lmlist = []
+            k = 0
+            for y in os.listdir(vidpath):
+                ypath = f'{vidpath}/{y}'
+                if re.match('.+\.jpg', ypath):
+                    if preload:
+                        ypath = load_img(ypath) #not really a path
+                    imglist.append(ypath)
+                    speaker_vid_tups.append((idx, jdx, k)) #adding image frames to speaker_vid_tups
+                    k+=1
+                elif re.match('.+\.lms', ypath):
+                    ypath = load_lm(ypath)
+                    lmlist.append(ypath)
+                elif re.match('.+track_params.pt', ypath):
+                    trackparams = ypath
+                elif re.match('.+\.json', ypath):
+                    transforms = ypath
+            out_dict[idx][jdx]['img']= imglist
+            out_dict[idx][jdx]['lm'] = lmlist
+            out_dict[idx][jdx]['trackparams'] = trackparams
+            out_dict[idx][jdx]['transforms'] = transforms
+            out_dict[idx][jdx]['vid'] = f'{vidpath}.mp4'
+            out_dict[idx][jdx]['wav'] = f'{vidpath}.wav'
+            out_dict[idx][jdx]['feature'] = f'{vidpath}_eo.npy'
+    return out_dict, n_speakers, n_videos, speaker_vid_tups
+
+def load_img(img_path):
+    img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED) # [H, W, 3] o [H, W, 4]
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = img.astype(np.float32) / 255 # [H, W, 3/4]
+    return img
+
+def load_transforms(transform_path):
+    return json.load(open(transform_path, 'r'))
+
+def load_image_size(transform, downscale):
+    if 'h' in transform and 'w' in transform:
+        H = int(transform['h']) // downscale
+        W = int(transform['w']) // downscale
+    else:
+        H = int(transform['cy']) * 2 // downscale
+        W = int(transform['cx']) * 2 // downscale
+    return H, W 
+
+def load_image(image_path):
+    image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED) # [H, W, 3]
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    image = image.astype(np.float32) / 255 # [H, W, 3]
+    image = torch.from_numpy(image)
+    return image
+
+def load_lm(lm_path):
+    lm = np.loadtxt(lm_path)
+    return lm
+
+def load_features(features, asr_model='esperanto', emb=''):
+    if 'esperanto' in asr_model:
+        aud_features = np.load(features)
+    else:
+        raise Exception('unkown feature type')
+    aud_features = torch.from_numpy(aud_features)
+
+    if len(aud_features.shape) == 3:
+        aud_features = aud_features.float().permute(0, 2, 1) # [N, 16, 29] --> [N, 29, 16]    
+
+        if emb:
+            print(f'[INFO] argmax to aud features {aud_features.shape} for --emb mode')
+            aud_features = aud_features.argmax(1) # [N, 16]
+    
+    else:
+        assert emb, "aud only provide labels, must use --emb"
+        aud_features = aud_features.long()
+
+    return aud_features
+
+
+def load_pose(transform, scale, offset):
+    pose = np.array(transform, dtype=np.float32) # [4, 4]
+    pose = nerf_matrix_to_ngp(pose, scale=scale, offset=offset)
+    return pose
+
+def load_aud(f, aud_features):
+    aud = aud_features[min(f['aud_id'], aud_features.shape[0] - 1)] # careful for the last frame...
+    return aud
+
+def load_face(lms):
+    xmin, xmax = int(lms[31:36, 1].min()), int(lms[:, 1].max())
+    ymin, ymax = int(lms[:, 0].min()), int(lms[:, 0].max())
+    return xmin, xmax, ymin, ymax
+
+def load_lips(lms, H, W):
+    lips = slice(48, 60)
+    xmin, xmax = int(lms[lips, 1].min()), int(lms[lips, 1].max())
+    ymin, ymax = int(lms[lips, 0].min()), int(lms[lips, 0].max())
+    #add padding for small lips (or perspective)
+    min_size = 35
+    if xmax - xmin <= min_size:
+        pad = int(np.ceil((min_size - (xmax - xmin))/2))
+        xmin -= pad
+        xmax += pad
+    if ymax - ymin <= min_size:
+        pad = int(np.ceil((min_size - (ymax - ymin))/2))
+        ymin -= pad
+        ymax += pad
+
+    # padding to H == W
+    cx = (xmin + xmax) // 2
+    cy = (ymin + ymax) // 2
+
+    l = max(xmax - xmin, ymax - ymin) // 2
+    xmin = max(0, cx - l)
+    xmax = min(H, cx + l)
+    ymin = max(0, cy - l)
+    ymax = min(W, cy + l)
+    return xmin, xmax, ymin, ymax
+
+def nest_new_list(lists):
+    out_lists = []
+    for l in lists:
+        l.append([])
+        out_lists.append(l)
+    return out_lists
+
+def load_intrinsics(transform, W, H, downscale):
+
+    # load intrinsics
+    if 'focal_len' in transform:
+        fl_x = fl_y = transform['focal_len']
+    elif 'fl_x' in transform or 'fl_y' in transform:
+        fl_x = (transform['fl_x'] if 'fl_x' in transform else transform['fl_y']) / downscale
+        fl_y = (transform['fl_y'] if 'fl_y' in transform else transform['fl_x']) / downscale
+    elif 'camera_angle_x' in transform or 'camera_angle_y' in transform:
+        # blender, assert in radians. already downscaled since we use H/W
+        fl_x = W / (2 * np.tan(transform['camera_angle_x'] / 2)) if 'camera_angle_x' in transform else None
+        fl_y = H / (2 * np.tan(transform['camera_angle_y'] / 2)) if 'camera_angle_y' in transform else None
+        if fl_x is None: fl_x = fl_y
+        if fl_y is None: fl_y = fl_x
+    else:
+        raise RuntimeError('Failed to load focal length, please check the transforms.json!')
+
+    cx = (transform['cx'] / downscale) if 'cx' in transform else (W / 2)
+    cy = (transform['cy'] / downscale) if 'cy' in transform else (H / 2)
+    
+    intrinsics = np.array([fl_x, fl_y, cx, cy])
+    return intrinsics 
+            
+
+
+class NeRFDatasetLRS:
+    def __init__(self, opt, device, type='train', downscale=1):
+        super().__init__()
+        
+        self.opt = opt
+        self.device = device
+        self.type = type # train, val, test
+        self.downscale = downscale
+        self.root_path = opt.path
+        self.preload = opt.preload # 0 = disk, 1 = cpu, 2 = gpu
+        self.scale = opt.scale # camera radius scale to make sure camera are inside the bounding box.
+        self.offset = opt.offset # camera offset
+        self.bound = opt.bound # bounding box half length, also used as the radius to random sample poses.
+        self.fp16 = opt.fp16
+
+
+        self.training = self.type in ['train', 'all', 'trainval']
+        self.num_rays = self.opt.num_rays if self.training else -1
+
+
+        # load nerf-compatible format data.
+
+        if type == 'train':
+            pathdict, n_speakers, n_videos, speaker_vid_tups = get_lrs_pathdict(os.path.join(self.root_path, 'train'), opt.preload)
+            first_tf = load_transforms(pathdict[0][0]['transforms'])
+        elif type == 'val':
+            pathdict, n_speakers, n_videos, speaker_vid_tups = get_lrs_pathdict(os.path.join(self.root_path, 'valid'), opt.preload)
+            first_tf = load_transforms(pathdict[0][0]['transforms'])
+
+
+        self.start_index = 0
+        self.end_index = len(speaker_vid_tups)
+
+
+        self.n_speakers = n_speakers
+        self.n_videos = n_videos
+        self.speaker_vid_tups = speaker_vid_tups
+
+        self.H, self.W = load_image_size(first_tf, self.downscale)
+        
+        self.torso_img = []
+        self.images = []
+
+        self.poses = []
+        self.exps = []
+
+        self.auds = []
+        self.face_rect = []
+        self.lips_rect = []
+        self.eye_area = []
+        self.radius = []
+        self.intrinsics = []
+        data_lists = [self.torso_img, self.images, self.poses, 
+                      self.exps, self.auds, self.face_rect, self.lips_rect, 
+                      self.eye_area, self.radius, self.intrinsics]
+
+        for speaker_id in tqdm.tqdm(pathdict, desc=f'loading {type} speakers'):
+            nest_new_list(data_lists) #add a list for each speaker, per-video lists appended in next loop
+            for vid_id in pathdict[speaker_id]:
+                vid_dict = pathdict[speaker_id][vid_id]
+                transform = load_transforms(vid_dict['transforms'])
+                #could just have it so the whole train/valid set is in the same folder, with 
+                #the same path dict, and then the end index decides how many speakers to include in each
+
+                features = vid_dict['feature']
+                aud_features = load_features(features, self.opt.asr_model, self.opt.emb)
+                # print(f'[INFO] load {self.opt.aud} aud_features: {aud_features.shape}')
+                frames=transform['frames']
+                torso_img, images, poses, exps, auds, face_rect, lips_rect, eye_area = [],[],[],[],[],[],[],[]
+
+                for f in frames:
+                    frame_transform = f['transform_matrix']
+
+                    pose = load_pose(frame_transform, self.scale, self.offset)
+                    poses.append(pose)
+                    images.append(vid_dict['img'][f['img_id']])
+
+                    # torso_img_path = os.path.join(self.root_path, 'torso_imgs', str(f['img_id']) + '.png')
+                    # if self.preload > 0:
+                    #     torso_img = cv2.imread(torso_img_path, cv2.IMREAD_UNCHANGED) # [H, W, 4]
+                    #     torso_img = cv2.cvtColor(torso_img, cv2.COLOR_BGRA2RGBA)
+                    #     torso_img = torso_img.astype(np.float32) / 255 # [H, W, 3/4]
+                    #     self.torso_img.append(torso_img)
+                    # else:
+                    #     self.torso_img.append(torso_img_path)
+                    # find the corresponding audio to the image frame
+                    # if not self.opt.asr and self.opt.aud == '':
+                    #     aud = aud_features[min(f['aud_id'], aud_features.shape[0] - 1)] # careful for the last frame...
+                    #     self.auds.append(aud)
+
+                    aud = load_aud(f, aud_features)
+                    auds.append(aud)
+
+                    # load lms and extract face
+
+                    # lms loaded when making the path dict 
+                    lms = vid_dict['lm'][f['img_id']]
+                    xmin, xmax, ymin, ymax = load_face(lms)            
+                    face_rect.append([xmin, xmax, ymin, ymax])
+
+                    #ignore the eye bits? - cant, rip
+
+                    if self.opt.exp_eye:
+                        eyes_left = slice(36, 42)
+                        eyes_right = slice(42, 48)
+
+                        area_left = polygon_area(lms[eyes_left, 0], lms[eyes_left, 1])
+                        area_right = polygon_area(lms[eyes_right, 0], lms[eyes_right, 1])
+
+                        # area percentage of two eyes of the whole image...
+                        area = (area_left + area_right) / (self.H * self.W) * 100
+
+                        eye_area.append(area)
+
+                    if self.opt.finetune_lips:
+                        lxmin, lxmax, lymin, lymax = load_lips(lms, self.H, self.W)
+                        lips_rect.append([lxmin, lxmax, lymin, lymax])
+                    
+                    #### end of frame-level ops ####
+
+                poses = np.stack(poses, axis=0)
+
+                # smooth camera path...
+                if self.opt.smooth_path:
+                    poses = smooth_camera_path(poses, self.opt.smooth_path_window)
+                    
+                poses = torch.from_numpy(poses) # [N, 4, 4]
+
+                if self.preload > 0:
+                    images = torch.from_numpy(np.stack(images, axis=0)) # [N, H, W, C]
+                    # self.torso_img = torch.from_numpy(np.stack(self.torso_img, axis=0)) # [N, H, W, C]
+                else:
+                    images = np.array(images)
+                    # self.torso_img = np.array(self.torso_img)
+
+                # if self.opt.asr:
+                #     # live streaming, no pre-calculated auds
+                #     self.auds = None
+                # else:
+                #     # auds corresponding to images
+                #     if self.opt.aud == '':
+                #         auds = torch.stack(auds, dim=0) # [N, 32, 16]
+                #     # auds is novel, may have a different length with images
+                #     else:
+                #         auds = aud_features
+                auds = torch.stack(auds, dim=0)
+                self.auds[speaker_id].append(auds)
+
+                if self.opt.exp_eye:
+                    eye_area = np.array(eye_area, dtype=np.float32) # [N]
+                    # print(f'[INFO] eye_area: {eye_area.min()} - {eye_area.max()}')
+
+                    if self.opt.smooth_eye:
+
+                        # naive 5 window average
+                        ori_eye = eye_area.copy()
+                        for i in range(ori_eye.shape[0]):
+                            start = max(0, i - 1)
+                            end = min(ori_eye.shape[0], i + 2)
+                            eye_area[i] = ori_eye[start:end].mean()
+
+                    eye_area = torch.from_numpy(eye_area).view(-1, 1) # [N, 1]
+
+
+                # calculate mean radius of all camera poses
+                radius = poses[:, :3, 3].norm(dim=-1).mean(0).item()
+                #print(f'[INFO] dataset camera poses: radius = {self.radius:.4f}, bound = {self.bound}')
+
+                
+                # [debug] uncomment to view all training poses.
+                # visualize_poses(self.poses.numpy())
+
+                # [debug] uncomment to view examples of randomly generated poses.
+                # visualize_poses(rand_poses(100, self.device, radius=self.radius).cpu().numpy())
+               
+                if self.preload > 1:
+                    poses = poses.to(self.device)
+                    auds = auds.to(self.device)
+                    images = images.to(torch.half).to(self.device)
+               
+                self.radius[speaker_id].append(radius)
+                self.poses[speaker_id].append(poses)
+                self.face_rect[speaker_id].append(face_rect)
+                self.lips_rect[speaker_id].append(lips_rect)           
+                self.images[speaker_id].append(images)
+                self.eye_area[speaker_id].append(eye_area)
+
+                intrinsics = load_intrinsics(transform, self.W, self.H, self.downscale)
+                self.intrinsics[speaker_id].append(intrinsics)
+
+            if self.preload > 1:
+                self.bg_img = self.bg_img.to(torch.half).to(self.device)
+                # self.torso_img = self.torso_img.to(torch.half).to(self.device)     
+                if self.opt.exp_eye:
+                    self.eye_area = self.eye_area.to(self.device)
+
+        # directly build the coordinate meshgrid in [-1, 1]^2
+        self.bg_coords = get_bg_coords(self.H, self.W, self.device) # [1, H*W, 2] in [-1, 1]
+
+        # load pre-extracted background image (should be the same size as training image...)
+        #background stuff can be the same right
+        if self.opt.bg_img == 'white': # special
+            bg_img = np.ones((self.H, self.W, 3), dtype=np.float32)
+        elif self.opt.bg_img == 'black': # special
+            bg_img = np.zeros((self.H, self.W, 3), dtype=np.float32)
+        else: # load from file
+            # default bg
+            if self.opt.bg_img == '':
+                self.opt.bg_img = os.path.join(self.root_path, 'bc.jpg')
+            bg_img = cv2.imread(self.opt.bg_img, cv2.IMREAD_UNCHANGED) # [H, W, 3]
+            if bg_img.shape[0] != self.H or bg_img.shape[1] != self.W:
+                bg_img = cv2.resize(bg_img, (self.W, self.H), interpolation=cv2.INTER_AREA)
+            bg_img = cv2.cvtColor(bg_img, cv2.COLOR_BGR2RGB)
+            bg_img = bg_img.astype(np.float32) / 255 # [H, W, 3/4]
+
+        self.bg_img = torch.from_numpy(bg_img)
+
+
+    def collate(self, index):
+
+        # B = len(index) # a list of length 1
+        # assert B == 1
+        speaker, vid, frame = self.speaker_vid_tups[index[0]]
+        # print('\n', index, speaker, vid, frame)
+        results = {}
+
+
+        if self.auds is not None:
+            auds = get_audio_features(self.auds[speaker][vid], self.opt.att, frame).to(self.device)
+            # auds = self.auds[speaker][vid][frame] 
+            results['auds'] = auds
+
+
+        # head pose and bg image may mirror (replay --> <-- --> <--).
+        # index[0] = self.mirror_index(index[0])
+
+        poses = self.poses[speaker][vid][frame].unsqueeze(0).to(self.device) # [B, 4, 4]
+        B = poses.shape[0]
+
+        if self.training and self.opt.finetune_lips:
+            rect = self.lips_rect[speaker][vid][frame]
+            results['rect'] = rect
+
+            rays = get_rays(poses, self.intrinsics[speaker][vid], self.H, self.W, -1, rect=rect)
+        else:
+            rays = get_rays(poses, self.intrinsics[speaker][vid], self.H, self.W, self.num_rays, self.opt.patch_size)
+
+        results['index'] = index # for ind. code
+        results['H'] = self.H
+        results['W'] = self.W
+        results['rays_o'] = rays['rays_o']
+        results['rays_d'] = rays['rays_d']
+
+        # get a mask for rays inside rect_face
+        if self.training:
+            xmin, xmax, ymin, ymax = self.face_rect[speaker][vid][frame]
+            face_mask = (rays['j'] >= xmin) & (rays['j'] < xmax) & (rays['i'] >= ymin) & (rays['i'] < ymax) # [B, N]
+            results['face_mask'] = face_mask
+
+        if self.opt.exp_eye:
+            results['eye'] = self.eye_area[speaker][vid][frame].to(self.device) # [1]
+        else:
+            results['eye'] = None
+
+        # load bg
+        # bg_torso_img = self.torso_img[index]
+        # if self.preload == 0: # on the fly loading
+        #     bg_torso_img = cv2.imread(bg_torso_img[0], cv2.IMREAD_UNCHANGED) # [H, W, 4]
+        #     bg_torso_img = cv2.cvtColor(bg_torso_img, cv2.COLOR_BGRA2RGBA)
+        #     bg_torso_img = bg_torso_img.astype(np.float32) / 255 # [H, W, 3/4]
+        #     bg_torso_img = torch.from_numpy(bg_torso_img).unsqueeze(0)
+        # bg_torso_img = bg_torso_img[..., :3] * bg_torso_img[..., 3:] + self.bg_img * (1 - bg_torso_img[..., 3:])
+        # bg_torso_img = bg_torso_img.view(B, -1, 3).to(self.device)
+
+        # if not self.opt.torso:
+        #     bg_img = bg_torso_img
+        # else:
+        bg_img = self.bg_img.view(1, -1, 3).repeat(B, 1, 1).to(self.device)
+        if self.training:
+            bg_img = torch.gather(bg_img, 1, torch.stack(3 * [rays['inds']], -1)) # [B, N, 3]
+
+        results['bg_color'] = bg_img
+
+        # if self.opt.torso and self.training:
+        #     bg_torso_img = torch.gather(bg_torso_img, 1, torch.stack(3 * [rays['inds']], -1)) # [B, N, 3]
+        #     results['bg_torso_color'] = bg_torso_img
+        images = self.images[speaker][vid][frame] # [B, H, W, 3/4]
+        if self.preload == 0:
+            if type(images)==list:
+                loaded_images = []
+                for image_path in images:
+                    image = load_image(image_path)
+                    loaded_images.append(image)
+                images = torch.stack(loaded_images).to(self.device)
+            else:
+                images = load_image(images).unsqueeze(0).to(self.device)
+        if self.training:
+            C = images.shape[-1]
+            images = torch.gather(images.view(B, -1, C), 1, torch.stack(C * [rays['inds']], -1)) # [B, N, 3/4]
+            
+        results['images'] = images
+
+        if self.training:
+            bg_coords = self.bg_coords #seems to be the right shape already..?
+            # bg_coords = torch.gather(self.bg_coords, 1, torch.stack(2 * [rays['inds']], -1)) # [1, N, 2]
+        else:
+            bg_coords = self.bg_coords # [1, N, 2]
+
+        results['bg_coords'] = bg_coords
+
+        results['poses'] = convert_poses(poses) # [B, 6]
+        results['poses_matrix'] = poses # [B, 4, 4]
+            
+        return results
+
+    def dataloader(self):
+
+        # if self.training:
+        #     # training len(poses) == len(auds)
+        #     # size = self.poses.shape[0
+        # else:
+        #     # test with novel auds, then use its length
+        #     if self.auds is not None:
+        #         size = self.auds.shape[0]
+        #     # live stream test, use 2 * len(poses), so it naturally mirrors.
+        #     else:
+        #         size = 2 * self.poses.shape[0]
+        size = len(self.speaker_vid_tups)
+        loader = DataLoader(list(range(size)), batch_size=1, collate_fn=self.collate, shuffle=self.training, num_workers=0)
+        loader._data = self # an ugly fix... we need poses in trainer.
+
+        # do evaluate if has gt images and use self-driven setting
+        loader.has_gt = (self.opt.aud == '')
+
+        return loader        
+
+
 class NeRFDataset:
     def __init__(self, opt, device, type='train', downscale=1):
         super().__init__()
@@ -353,16 +870,17 @@ class NeRFDataset:
         else:
             # no test, use val as test
             _split = 'val' if type == 'test' else type
-            with open(os.path.join(self.root_path, f'transforms_{_split}.json'), 'r') as f:
+            # with open(os.path.join(self.root_path, f'transforms_{_split}.json'), 'r') as f:
+            with open(os.path.join(self.root_path, f'transforms_train.json'), 'r') as f: #i didnt follow the naming conventions 
                 transform = json.load(f)
 
         # load image size
         if 'h' in transform and 'w' in transform:
-            self.H = int(transform['h']) // downscale
-            self.W = int(transform['w']) // downscale
+            self.H = int(transform['h']) // self.downscale
+            self.W = int(transform['w']) // self.downscale
         else:
-            self.H = int(transform['cy']) * 2 // downscale
-            self.W = int(transform['cx']) * 2 // downscale
+            self.H = int(transform['cy']) * 2 // self.downscale
+            self.W = int(transform['cx']) * 2 // self.downscale
         
         # read images
         frames = transform["frames"]
@@ -374,6 +892,7 @@ class NeRFDataset:
         frames = frames[self.start_index:self.end_index]
 
         # use a subset of dataset.
+
         if type == 'train':
             if self.opt.part:
                 frames = frames[::10] # 1/10 frames
@@ -592,8 +1111,8 @@ class NeRFDataset:
         if 'focal_len' in transform:
             fl_x = fl_y = transform['focal_len']
         elif 'fl_x' in transform or 'fl_y' in transform:
-            fl_x = (transform['fl_x'] if 'fl_x' in transform else transform['fl_y']) / downscale
-            fl_y = (transform['fl_y'] if 'fl_y' in transform else transform['fl_x']) / downscale
+            fl_x = (transform['fl_x'] if 'fl_x' in transform else transform['fl_y']) / self.downscale
+            fl_y = (transform['fl_y'] if 'fl_y' in transform else transform['fl_x']) / self.downscale
         elif 'camera_angle_x' in transform or 'camera_angle_y' in transform:
             # blender, assert in radians. already downscaled since we use H/W
             fl_x = self.W / (2 * np.tan(transform['camera_angle_x'] / 2)) if 'camera_angle_x' in transform else None
@@ -603,8 +1122,8 @@ class NeRFDataset:
         else:
             raise RuntimeError('Failed to load focal length, please check the transforms.json!')
 
-        cx = (transform['cx'] / downscale) if 'cx' in transform else (self.W / 2)
-        cy = (transform['cy'] / downscale) if 'cy' in transform else (self.H / 2)
+        cx = (transform['cx'] / self.downscale) if 'cx' in transform else (self.W / 2)
+        cy = (transform['cy'] / self.downscale) if 'cy' in transform else (self.H / 2)
     
         self.intrinsics = np.array([fl_x, fl_y, cx, cy])
 

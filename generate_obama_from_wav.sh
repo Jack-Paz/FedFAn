@@ -12,46 +12,50 @@ filename="${file%.*}" #without extension
 
 featname=${filepath}/${filename}_eo.npy #add _eo.npy, same folder
 
-if [[ ! -f ${featname} ]]; then
-#extract features from wav
-    python RAD-NeRF/nerf/asr.py --wav ${wav} --save_feats
-fi 
+if [[ ! -f "${filepath}/${filename}_obama.mp4" ]]; then
 
-echo "done create feats: ${featname}"
+    # if [[ ! -f ${featname} ]]; then
+    #extract features from wav
+        python RAD-NeRF/nerf/asr.py --wav ${wav} --save_feats
+    # fi 
 
-
-echo "doing extract pose"
-#infer video name
-folder="$(dirname "${wav}")" ; file_w_ext="$(basename "${wav}")"
-file_wo_ext="${file_w_ext%.*}"
+    echo "done create feats: ${featname}"
 
 
-vid=${folder}/${file_wo_ext}.mp4
+    echo "doing extract pose"
+    #infer video name
+    folder="$(dirname "${wav}")" ; file_w_ext="$(basename "${wav}")"
+    file_wo_ext="${file_w_ext%.*}"
 
-pose=${folder}/${file_wo_ext}/transforms_train.json
 
-if [[ ! -f ${pose} ]]; then
-    bash make_pose_matrix.sh ${vid}
+    vid=${folder}/${file_wo_ext}.mp4
+
+    pose=${folder}/${file_wo_ext}/transforms_train.json
+
+    if [[ ! -f ${pose} ]]; then
+        bash make_pose_matrix.sh ${vid}
+    fi
+
+    echo "doing create video"
+    python RAD-NeRF/test.py \
+        --pose ${pose} \
+        --ckpt RAD-NeRF/data/pretrained/obama_eo.pth \
+        --aud ${featname} \
+        --workspace ${workspace} \
+        --name ${filename}_obama \
+        -O --torso
+
+    outfile=${workspace}results/${filename}_obama.mp4
+
+
+    mv $outfile $filepath #move it to the other dir - good idea?
+
+    # bash add_audio_to_video.sh ${filepath}/${filename}_obama.mp4 ${wav}
+    echo "done create video"
+else
+    echo "file ${filepath}/${filename}_obama.mp4 exists, skipping"
+
 fi
-
-echo "doing create video"
-python RAD-NeRF/test.py \
-    --pose ${pose} \
-    --ckpt RAD-NeRF/data/pretrained/obama_eo.pth \
-    --aud ${featname} \
-    --workspace ${workspace} \
-    --name ${filename}_obama \
-    -O --torso
-
-outfile=${workspace}results/${filename}_obama.mp4
-
-
-
-mv $outfile $filepath #move it to the other dir - good idea?
-
-# bash add_audio_to_video.sh ${filepath}/${filename}_obama.mp4 ${wav}
-
-echo "done create video"
 
 
 

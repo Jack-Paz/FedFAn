@@ -101,7 +101,6 @@ class ASR:
         self.feat_buffer_size = 4
         self.feat_buffer_idx = 0
         self.feat_queue = torch.zeros(self.feat_buffer_size * self.context_size, self.audio_dim, dtype=torch.float32, device=self.device)
-
         # TODO: hard coded 16 and 8 window size...
         self.front = self.feat_buffer_size * self.context_size - 8 # fake padding
         self.tail = 8
@@ -202,7 +201,7 @@ class ASR:
             # context not enough, do not run network.
             if len(self.frames) < self.stride_left_size + self.context_size + self.stride_right_size:
                 return
-        
+
         inputs = np.concatenate(self.frames) # [N * chunk]
 
         # discard the old part to save memory
@@ -211,7 +210,10 @@ class ASR:
 
         logits, labels, text = self.frame_to_text(inputs)
         feats = logits # better lips-sync than labels
-
+        #EDITED: sometimes the last feature frame comes out too long?? 
+        if len(feats) > self.context_size:
+            print('warning, feat too long, cutting')
+            feats = feats[:self.context_size]
         # save feats
         if self.opt.asr_save_feats:
             self.all_feats.append(feats)

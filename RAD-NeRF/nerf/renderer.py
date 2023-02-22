@@ -322,59 +322,72 @@ class NeRFRenderer(nn.Module):
 
         if not self.cuda_ray:
             return
-        
-        if isinstance(poses, np.ndarray):
-            poses = torch.from_numpy(poses)
 
-        B = poses.shape[0]
-        
-        fx, fy, cx, cy = intrinsic
-        
-        X = torch.arange(self.grid_size, dtype=torch.int32, device=self.density_bitfield.device).split(S)
-        Y = torch.arange(self.grid_size, dtype=torch.int32, device=self.density_bitfield.device).split(S)
-        Z = torch.arange(self.grid_size, dtype=torch.int32, device=self.density_bitfield.device).split(S)
-
-        count = torch.zeros_like(self.density_grid)
-        poses = poses.to(count.device)
-
+        lrs = False
+        if isinstance(poses, list):
+            #storing poses for multiple videos - LRS dataset
+            lrs = True
+                
         # 5-level loop, forgive me...
+        # oh I can do better
 
-        for xs in X:
-            for ys in Y:
-                for zs in Z:
-                    
-                    # construct points
-                    xx, yy, zz = custom_meshgrid(xs, ys, zs)
-                    coords = torch.cat([xx.reshape(-1, 1), yy.reshape(-1, 1), zz.reshape(-1, 1)], dim=-1) # [N, 3], in [0, 128)
-                    indices = raymarching.morton3D(coords).long() # [N]
-                    world_xyzs = (2 * coords.float() / (self.grid_size - 1) - 1).unsqueeze(0) # [1, N, 3] in [-1, 1]
+        def process_xyz(poses, intrinsic):
+            if isinstance(poses, np.ndarray):
+                poses = torch.from_numpy(poses)
+            
+            B = poses.shape[0]
+            fx, fy, cx, cy = intrinsic        
+            X = torch.arange(self.grid_size, dtype=torch.int32, device=self.density_bitfield.device).split(S)
+            Y = torch.arange(self.grid_size, dtype=torch.int32, device=self.density_bitfield.device).split(S)
+            Z = torch.arange(self.grid_size, dtype=torch.int32, device=self.density_bitfield.device).split(S)
 
-                    # cascading
-                    for cas in range(self.cascade):
-                        bound = min(2 ** cas, self.bound)
-                        half_grid_size = bound / self.grid_size
-                        # scale to current cascade's resolution
-                        cas_world_xyzs = world_xyzs * (bound - half_grid_size)
+            count = torch.zeros_like(self.density_grid)
+            poses = poses.to(count.device)
 
-                        # split batch to avoid OOM
-                        head = 0
-                        while head < B:
-                            tail = min(head + S, B)
 
-                            # world2cam transform (poses is c2w, so we need to transpose it. Another transpose is needed for batched matmul, so the final form is without transpose.)
-                            cam_xyzs = cas_world_xyzs - poses[head:tail, :3, 3].unsqueeze(1)
-                            cam_xyzs = cam_xyzs @ poses[head:tail, :3, :3] # [S, N, 3]
-                            
-                            # query if point is covered by any camera
-                            mask_z = cam_xyzs[:, :, 2] > 0 # [S, N]
-                            mask_x = torch.abs(cam_xyzs[:, :, 0]) < cx / fx * cam_xyzs[:, :, 2] + half_grid_size * 2
-                            mask_y = torch.abs(cam_xyzs[:, :, 1]) < cy / fy * cam_xyzs[:, :, 2] + half_grid_size * 2
-                            mask = (mask_z & mask_x & mask_y).sum(0).reshape(-1) # [N]
+            for xs in X:
+                for ys in Y:
+                    for zs in Z:
+                        
+                        # construct points
+                        xx, yy, zz = custom_meshgrid(xs, ys, zs)
+                        coords = torch.cat([xx.reshape(-1, 1), yy.reshape(-1, 1), zz.reshape(-1, 1)], dim=-1) # [N, 3], in [0, 128)
+                        indices = raymarching.morton3D(coords).long() # [N]
+                        world_xyzs = (2 * coords.float() / (self.grid_size - 1) - 1).unsqueeze(0) # [1, N, 3] in [-1, 1]
 
-                            # update count 
-                            count[cas, indices] += mask
-                            head += S
-    
+                        # cascading
+                        for cas in range(self.cascade):
+                            bound = min(2 ** cas, self.bound)
+                            half_grid_size = bound / self.grid_size
+                            # scale to current cascade's resolution
+                            cas_world_xyzs = world_xyzs * (bound - half_grid_size)
+
+                            # split batch to avoid OOM
+                            head = 0
+                            while head < B:
+                                tail = min(head + S, B)
+
+                                # world2cam transform (poses is c2w, so we need to transpose it. Another transpose is needed for batched matmul, so the final form is without transpose.)
+                                cam_xyzs = cas_world_xyzs - poses[head:tail, :3, 3].unsqueeze(1)
+                                cam_xyzs = cam_xyzs @ poses[head:tail, :3, :3] # [S, N, 3]
+                                
+                                # query if point is covered by any camera
+                                mask_z = cam_xyzs[:, :, 2] > 0 # [S, N]
+                                mask_x = torch.abs(cam_xyzs[:, :, 0]) < cx / fx * cam_xyzs[:, :, 2] + half_grid_size * 2
+                                mask_y = torch.abs(cam_xyzs[:, :, 1]) < cy / fy * cam_xyzs[:, :, 2] + half_grid_size * 2
+                                mask = (mask_z & mask_x & mask_y).sum(0).reshape(-1) # [N]
+
+                                # update count 
+                                count[cas, indices] += mask
+                                head += S
+            return count
+        count = torch.zeros_like(self.density_grid)
+        if lrs:
+            for i in range(len(poses)):
+                for j in range(len(poses[i])):
+                    count += process_xyz(poses[i][j], intrinsic[i][j])
+        else:
+            count = process_xyz(pose, intrinsic)
         # mark untrained grid as -1
         self.density_grid[count == 0] = -1
 
@@ -388,8 +401,16 @@ class NeRFRenderer(nn.Module):
             return 
         
         # use random auds (different expressions should have similar density grid...)
-        rand_idx = random.randint(0, self.aud_features.shape[0] - 1)
-        auds = get_audio_features(self.aud_features, self.att, rand_idx).to(self.density_bitfield.device)
+        if hasattr(self, 'speaker_vid_tups'):
+            rand_idx = random.randint(0, len(self.speaker_vid_tups) - 1)
+            speaker, vid, frame = self.speaker_vid_tups[rand_idx]
+            auds = get_audio_features(self.aud_features[speaker][vid], self.att, frame).to(self.density_bitfield.device)
+        else:
+            rand_idx = random.randint(0, self.aud_features.shape[0] - 1)
+            auds = get_audio_features(self.aud_features, self.att, rand_idx).to(self.density_bitfield.device)
+
+
+
 
         # encode audio
         enc_a = self.encode_audio(auds)
@@ -401,7 +422,12 @@ class NeRFRenderer(nn.Module):
 
             # use a random eye area based on training dataset's statistics...
             if self.exp_eye:
-                eye = self.eye_area[[rand_idx]].to(self.density_bitfield.device) # [1, 1]
+                if hasattr(self, 'speaker_vid_tups'): #workaround for lrs data
+                    rand_idx = random.randint(0, len(self.speaker_vid_tups) - 1)
+                    speaker, vid, frame = self.speaker_vid_tups[rand_idx]
+                    eye = self.eye_area[speaker][vid][frame].to(self.density_bitfield.device) # [1, 1]
+                else:
+                    eye = self.eye_area[[rand_idx]].to(self.density_bitfield.device) # [1, 1]
             else:
                 eye = None
             

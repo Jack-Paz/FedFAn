@@ -716,7 +716,6 @@ class Trainer(object):
     ### ------------------------------	
 
     def train_step(self, data):
-
         rays_o = data['rays_o'] # [B, N, 3]
         rays_d = data['rays_d'] # [B, N, 3]
         bg_coords = data['bg_coords'] # [1, N, 2]
@@ -758,13 +757,11 @@ class Trainer(object):
             xmin, xmax, ymin, ymax = data['rect']
             rgb = rgb.view(-1, xmax - xmin, ymax - ymin, 3).permute(0, 3, 1, 2).contiguous()
             pred_rgb = pred_rgb.view(-1, xmax - xmin, ymax - ymin, 3).permute(0, 3, 1, 2).contiguous()
-
             # torch_vis_2d(rgb[0])
             # torch_vis_2d(pred_rgb[0])
-
             # LPIPS loss
             loss = loss + 0.01 * self.criterion_lpips(pred_rgb, rgb)
-        
+
         # flip every step... if finetune lips
         if self.flip_finetune_lips:
             self.opt.finetune_lips = not self.opt.finetune_lips
@@ -1164,11 +1161,11 @@ class Trainer(object):
             self.global_step += 1
 
             self.optimizer.zero_grad()
-
             with torch.cuda.amp.autocast(enabled=self.fp16):
                 preds, truths, loss = self.train_step(data)
-         
-            self.scaler.scale(loss).backward()
+            
+            self.scaler.scale(loss)            
+            loss.backward()
             self.scaler.step(self.optimizer)
             self.scaler.update()
 
