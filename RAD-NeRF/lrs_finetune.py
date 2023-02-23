@@ -210,7 +210,6 @@ if __name__ == '__main__':
     # for x in train_loader:
     #     print(x.keys())
     #     breakpoint()
-
     print('warning removed assertion error for dataset length')
     # assert len(train_loader) < opt.ind_num, f"[ERROR] dataset too many frames: {len(train_loader)}, please increase --ind_num to this number!"
 

@@ -196,7 +196,10 @@ class NeRFRenderer(nn.Module):
         
         if self.individual_dim > 0:
             if self.training:
-                ind_code = self.individual_codes[index]
+                if hasattr(self, 'speaker_vid_tups'): #LRS workaround, treat it as test data!
+                    ind_code = self.individual_codes[0] 
+                else:
+                    ind_code = self.individual_codes[index]
             # use a fixed ind code for the unknown test data.
             else:
                 ind_code = self.individual_codes[0]
@@ -270,6 +273,8 @@ class NeRFRenderer(nn.Module):
             # torso ind code
             if self.individual_dim_torso > 0:
                 if self.training:
+                    print('shouldnt be here!')
+                    breakpoint()
                     ind_code_torso = self.individual_codes_torso[index]
                 # use a fixed ind code for the unknown test data.
                 else:
@@ -482,6 +487,8 @@ class NeRFRenderer(nn.Module):
             pose = convert_poses(self.poses[[rand_idx]]).to(self.density_bitfield.device)
 
             if self.opt.ind_dim_torso > 0:
+                print('shouldnt be here!')
+                breakpoint()
                 ind_code = self.individual_codes_torso[[rand_idx]]
             else:
                 ind_code = None

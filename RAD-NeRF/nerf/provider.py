@@ -321,6 +321,7 @@ def get_lrs_pathdict(input_folder, preload=0, use_ints=True):
     n_speakers = 0
     n_videos = 0
     speaker_vid_tups = []
+    img_paths = []
     for i, speaker in enumerate(os.listdir(input_folder)):
         n_speakers +=1
         speakerfolder = f'{input_folder}/{speaker}'
@@ -345,6 +346,7 @@ def get_lrs_pathdict(input_folder, preload=0, use_ints=True):
             for y in os.listdir(vidpath):
                 ypath = f'{vidpath}/{y}'
                 if re.match('.+\.jpg', ypath):
+                    img_paths.append(ypath)
                     if preload:
                         ypath = load_img(ypath) #not really a path
                     imglist.append(ypath)
@@ -364,7 +366,7 @@ def get_lrs_pathdict(input_folder, preload=0, use_ints=True):
             out_dict[idx][jdx]['vid'] = f'{vidpath}.mp4'
             out_dict[idx][jdx]['wav'] = f'{vidpath}.wav'
             out_dict[idx][jdx]['feature'] = f'{vidpath}_eo.npy'
-    return out_dict, n_speakers, n_videos, speaker_vid_tups
+    return out_dict, n_speakers, n_videos, speaker_vid_tups, img_paths
 
 def load_img(img_path):
     img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED) # [H, W, 3] o [H, W, 4]
@@ -509,13 +511,10 @@ class NeRFDatasetLRS:
 
 
         # load nerf-compatible format data.
-
-        if type == 'train':
-            pathdict, n_speakers, n_videos, speaker_vid_tups = get_lrs_pathdict(os.path.join(self.root_path, 'train'), opt.preload)
-            first_tf = load_transforms(pathdict[0][0]['transforms'])
-        elif type == 'val':
-            pathdict, n_speakers, n_videos, speaker_vid_tups = get_lrs_pathdict(os.path.join(self.root_path, 'valid'), opt.preload)
-            first_tf = load_transforms(pathdict[0][0]['transforms'])
+        set_to_load='tran' if type=='train' else 'valid'
+        pathdict, n_speakers, n_videos, speaker_vid_tups, img_paths = get_lrs_pathdict(os.path.join(self.root_path, set_to_load), opt.preload)
+        
+        first_tf = load_transforms(pathdict[0][0]['transforms'])
 
 
         self.start_index = 0
@@ -525,6 +524,7 @@ class NeRFDatasetLRS:
         self.n_speakers = n_speakers
         self.n_videos = n_videos
         self.speaker_vid_tups = speaker_vid_tups
+        self.img_paths = img_paths
 
         self.H, self.W = load_image_size(first_tf, self.downscale)
         
@@ -713,8 +713,8 @@ class NeRFDatasetLRS:
         speaker, vid, frame = self.speaker_vid_tups[index[0]]
         # print('\n', index, speaker, vid, frame)
         results = {}
-
-
+        results['speaker_vid_tup'] = (speaker,vid,frame)
+        results['path'] = self.img_paths[index]
         if self.auds is not None:
             auds = get_audio_features(self.auds[speaker][vid], self.opt.att, frame).to(self.device)
             # auds = self.auds[speaker][vid][frame] 
