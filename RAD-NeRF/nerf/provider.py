@@ -438,14 +438,28 @@ def load_lips(lms, H, W):
     ymin, ymax = int(lms[lips, 0].min()), int(lms[lips, 0].max())
     #add padding for small lips (or perspective)
     min_size = 35
-    if xmax - xmin <= min_size:
-        pad = int(np.ceil((min_size - (xmax - xmin))/2))
-        xmin -= pad
-        xmax += pad
-    if ymax - ymin <= min_size:
-        pad = int(np.ceil((min_size - (ymax - ymin))/2))
-        ymin -= pad
-        ymax += pad
+    if xmax - max(xmin, 0) <= min_size:
+        if xmin<=0:
+            xmin=0
+            xmax = min_size
+        elif xmax >= H:
+            xmax=H
+            xmin = H-min_size
+        else:
+            pad = int(np.ceil((min_size - (xmax - xmin))/2))
+            xmin -= pad
+            xmax += pad
+    if ymax - max(ymin, 0) <= min_size:
+        if ymin<=0:
+            ymin=0
+            ymax = min_size
+        elif ymax >= W:
+            ymax=W
+            ymin = W-min_size
+        else:
+            pad = int(np.ceil((min_size - (ymax - ymin))/2))
+            ymin -= pad
+            ymax += pad
 
     # padding to H == W
     cx = (xmin + xmax) // 2
@@ -511,7 +525,7 @@ class NeRFDatasetLRS:
 
 
         # load nerf-compatible format data.
-        set_to_load='tran' if type=='train' else 'valid'
+        set_to_load='train' if type=='train' else 'valid'
         pathdict, n_speakers, n_videos, speaker_vid_tups, img_paths = get_lrs_pathdict(os.path.join(self.root_path, set_to_load), opt.preload)
         
         first_tf = load_transforms(pathdict[0][0]['transforms'])
@@ -714,7 +728,7 @@ class NeRFDatasetLRS:
         # print('\n', index, speaker, vid, frame)
         results = {}
         results['speaker_vid_tup'] = (speaker,vid,frame)
-        results['path'] = self.img_paths[index]
+        results['path'] = self.img_paths[index[0]]
         if self.auds is not None:
             auds = get_audio_features(self.auds[speaker][vid], self.opt.att, frame).to(self.device)
             # auds = self.auds[speaker][vid][frame] 
@@ -1017,7 +1031,6 @@ class NeRFDataset:
                 xmax = min(self.H, cx + l)
                 ymin = max(0, cy - l)
                 ymax = min(self.W, cy + l)
-
                 self.lips_rect.append([xmin, xmax, ymin, ymax])
         
         # load pre-extracted background image (should be the same size as training image...)

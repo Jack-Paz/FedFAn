@@ -611,7 +611,7 @@ class Trainer(object):
         self.eval_interval = eval_interval
         self.use_checkpoint = use_checkpoint
         self.use_tensorboardX = use_tensorboardX
-        self.flip_finetune_lips = self.opt.finetune_lips
+        self.flip_finetune_lips = self.opt.finetune_lips if not self.opt.lrs else False #if lrs dont flip every other iter!
         self.time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
         self.scheduler_update_every_step = scheduler_update_every_step
         self.device = device if device is not None else torch.device(f'cuda:{local_rank}' if torch.cuda.is_available() else 'cpu')
@@ -667,6 +667,7 @@ class Trainer(object):
 
         # workspace prepare
         self.log_ptr = None
+        self.workspace = f'{self.workspace.rstrip("/")}_{self.time_stamp}'
         if self.workspace is not None:
             os.makedirs(self.workspace, exist_ok=True)        
             self.log_path = os.path.join(workspace, f"log_{self.name}.txt")
@@ -745,13 +746,13 @@ class Trainer(object):
             pred_rgb = outputs['torso_color']
 
         # MSE loss
-        loss = self.criterion(pred_rgb, rgb).mean(-1) # [B, N, 3] --> [B, N]
+        if not self.opt.lrs:
+            loss = self.criterion(pred_rgb, rgb).mean(-1) # [B, N, 3] --> [B, N]
 
         # camera optim regularization
         # if self.opt.train_camera:
         #     cam_reg = self.model.camera_dR[index].abs().mean() + self.model.camera_dT[index].abs().mean() 
         #     loss = loss + 1e-2 * cam_reg
-
         # lips finetune
         if self.opt.finetune_lips:
             xmin, xmax, ymin, ymax = data['rect']
@@ -760,7 +761,11 @@ class Trainer(object):
             # torch_vis_2d(rgb[0])
             # torch_vis_2d(pred_rgb[0])
             # LPIPS loss
-            loss = loss + 0.01 * self.criterion_lpips(pred_rgb, rgb)
+            if self.opt.lrs:
+                #use lpips only!
+                loss = self.criterion_lpips(pred_rgb, rgb)
+            else:    
+                loss = loss + 0.01 * self.criterion_lpips(pred_rgb, rgb)
 
         # flip every step... if finetune lips
         if self.flip_finetune_lips:
@@ -775,7 +780,11 @@ class Trainer(object):
             # torch_vis_2d(pred_rgb[0])
 
             # LPIPS loss ?
-            loss = loss + 0.001 * self.criterion_lpips(pred_rgb, rgb)
+            if self.opt.lrs:
+                #use lpips only!
+                loss = self.criterion_lpips(pred_rgb, rgb)
+            else:    
+                loss = loss + 0.001 * self.criterion_lpips(pred_rgb, rgb)
 
         loss = loss.mean()
 

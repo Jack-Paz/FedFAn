@@ -59,7 +59,7 @@ if __name__ == '__main__':
     parser.add_argument('--patch_size', type=int, default=1, help="[experimental] render patches in training, so as to apply LPIPS loss. 1 means disabled, use [64, 32, 16] to enable")
 
     parser.add_argument('--finetune_lips', action='store_true', help="use LPIPS and landmarks to fine tune lips region")
-    # parser.add_argument('--finetune_lrs', action='store_true', help="use LPIPS and landmarks to fine tune lips region - on LRS data")
+    parser.add_argument('--lrs', action='store_true', help="finetune LIPs only on LRS data")
 
     parser.add_argument('--smooth_lips', action='store_true', help="smooth the enc_a in a exponential decay way...")
 
