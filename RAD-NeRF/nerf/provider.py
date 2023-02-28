@@ -741,10 +741,9 @@ class NeRFDatasetLRS:
         poses = self.poses[speaker][vid][frame].unsqueeze(0).to(self.device) # [B, 4, 4]
         B = poses.shape[0]
 
-        if self.training and self.opt.finetune_lips:
+        if (self.training and self.opt.finetune_lips) or self.opt.lrs:
             rect = self.lips_rect[speaker][vid][frame]
             results['rect'] = rect
-
             rays = get_rays(poses, self.intrinsics[speaker][vid], self.H, self.W, -1, rect=rect)
         else:
             rays = get_rays(poses, self.intrinsics[speaker][vid], self.H, self.W, self.num_rays, self.opt.patch_size)
@@ -780,7 +779,7 @@ class NeRFDatasetLRS:
         #     bg_img = bg_torso_img
         # else:
         bg_img = self.bg_img.view(1, -1, 3).repeat(B, 1, 1).to(self.device)
-        if self.training:
+        if self.training or self.opt.lrs:
             bg_img = torch.gather(bg_img, 1, torch.stack(3 * [rays['inds']], -1)) # [B, N, 3]
 
         results['bg_color'] = bg_img
@@ -798,7 +797,7 @@ class NeRFDatasetLRS:
                 images = torch.stack(loaded_images).to(self.device)
             else:
                 images = load_image(images).unsqueeze(0).to(self.device)
-        if self.training:
+        if self.training or self.opt.lrs:
             C = images.shape[-1]
             images = torch.gather(images.view(B, -1, C), 1, torch.stack(C * [rays['inds']], -1)) # [B, N, 3/4]
             

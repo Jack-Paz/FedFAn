@@ -126,13 +126,17 @@ if __name__ == '__main__':
         # assert opt.patch_size > 16, "patch_size should > 16 to run LPIPS loss."
         assert opt.num_rays % (opt.patch_size ** 2) == 0, "patch_size ** 2 should be dividable by num_rays."
     
-    if opt.finetune_lips or opt.finetune_lrs:
+    if opt.finetune_lips or opt.lrs:
         # do not update density grid in finetune stage
         opt.update_extra_interval = 1e9
     
     from nerf.network import NeRFNetwork
 
     print(opt)
+    #save opt for reference
+    with open(f'{opt.workspace}/opt.txt', 'w') as f:
+        for x in opt.__dict__:
+            f.write(f'x: {opt.__dict__[x]}\n')
     
     seed_everything(opt.seed)
 
@@ -227,9 +231,10 @@ if __name__ == '__main__':
     else:
         scheduler = lambda optimizer: optim.lr_scheduler.LambdaLR(optimizer, lambda iter: 0.1 ** (iter / opt.iters))
 
-    metrics = [PSNRMeter(), LPIPSMeter(device=device)]
-    
-    eval_interval = max(1, int(5000 / len(train_loader)))
+    # metrics = [PSNRMeter(), LPIPSMeter(device=device)]
+    metrics = []
+    # eval_interval = max(1, int(5000 / len(train_loader)))
+    eval_interval = 1 #always eval every epoch!
     trainer = Trainer('ngp', opt, model, device=device, workspace=opt.workspace, optimizer=optimizer, criterion=criterion, ema_decay=0.95, fp16=opt.fp16, lr_scheduler=scheduler, scheduler_update_every_step=True, metrics=metrics, use_checkpoint=opt.ckpt, eval_interval=eval_interval)
 
     if opt.gui:

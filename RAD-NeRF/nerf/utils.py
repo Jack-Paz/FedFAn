@@ -588,7 +588,7 @@ class Trainer(object):
                  workspace='workspace', # workspace to save logs & ckpts
                  best_mode='min', # the smaller/larger result, the better
                  use_loss_as_metric=True, # use loss as the first metric
-                 report_metric_at_train=False, # also report metrics at training
+                 report_metric_at_train=True, # also report metrics at training
                  use_checkpoint="latest", # which ckpt to use at init time
                  use_tensorboardX=True, # whether to use tensorboard for logging
                  scheduler_update_every_step=False, # whether to call scheduler.step() after every train step
@@ -730,14 +730,12 @@ class Trainer(object):
             rgb = data['images'] # [B, N, 3]
         else:
             rgb = data['bg_torso_color']
-    
         B, N, C = rgb.shape
 
         if self.opt.color_space == 'linear':
             rgb[..., :3] = srgb_to_linear(rgb[..., :3])
          
         bg_color = data['bg_color']
-        
         outputs = self.model.render(rays_o, rays_d, auds, bg_coords, poses, eye=eye, index=index, staged=False, bg_color=bg_color, perturb=True, force_all_rays=False if (self.opt.patch_size <= 1 and not self.opt.train_camera) else True, **vars(self.opt))
 
         if not self.opt.torso:
@@ -825,22 +823,36 @@ class Trainer(object):
         index = data['index'] # [B]
         eye = data['eye'] # [B, 1]
 
-        B, H, W, C = images.shape
+        if self.opt.lrs: #not splitting images
+            B, N, C = images.shape
+            if self.opt.color_space == 'linear':
+                images[..., :3] = srgb_to_linear(images[..., :3])
+            # eval with fixed background color
+            # bg_color = 1
+            bg_color = data['bg_color']
+            outputs = self.model.render(rays_o, rays_d, auds, bg_coords, poses, eye=eye, index=index, staged=False, bg_color=bg_color, perturb=False, **vars(self.opt))
 
-        if self.opt.color_space == 'linear':
-            images[..., :3] = srgb_to_linear(images[..., :3])
+            pred_rgb = outputs['image']
+            pred_depth = outputs['depth']
+            #use lpips only!
+            xmin, xmax, ymin, ymax = data['rect']
+            images = images.view(-1, xmax - xmin, ymax - ymin, 3).permute(0, 3, 1, 2).contiguous()
+            pred_rgb = pred_rgb.view(-1, xmax - xmin, ymax - ymin, 3).permute(0, 3, 1, 2).contiguous()
+            loss = self.criterion_lpips(pred_rgb, images).mean()
+            images = images.permute(0,2,3,1) #change it back to B, W, H, 3
+            pred_rgb = pred_rgb.permute(0,2,3,1)
 
-        # eval with fixed background color
-        # bg_color = 1
-        bg_color = data['bg_color']
-
-        outputs = self.model.render(rays_o, rays_d, auds, bg_coords, poses, eye=eye, index=index, staged=True, bg_color=bg_color, perturb=False, **vars(self.opt))
-
-        pred_rgb = outputs['image'].reshape(B, H, W, 3)
-        pred_depth = outputs['depth'].reshape(B, H, W)
-
-        loss = self.criterion(pred_rgb, images).mean()
-
+        else:            
+            B, H, W, C = images.shape
+            if self.opt.color_space == 'linear':
+                images[..., :3] = srgb_to_linear(images[..., :3])
+            # eval with fixed background color
+            # bg_color = 1
+            bg_color = data['bg_color']
+            outputs = self.model.render(rays_o, rays_d, auds, bg_coords, poses, eye=eye, index=index, staged=True, bg_color=bg_color, perturb=False, **vars(self.opt))
+            pred_rgb = outputs['image'].reshape(B, H, W, 3)
+            pred_depth = outputs['depth'].reshape(B, H, W)
+            loss = self.criterion(pred_rgb, images).mean()
         return pred_rgb, pred_depth, images, loss
 
     # moved out bg_color and perturb for more flexible control...
@@ -913,7 +925,7 @@ class Trainer(object):
 
             if self.workspace is not None and self.local_rank == 0:
                 self.save_checkpoint(full=True, best=False)
-
+            print('\n', self.epoch, self.eval_interval)
             if self.epoch % self.eval_interval == 0:
                 self.evaluate_one_epoch(valid_loader)
                 self.save_checkpoint(full=False, best=True)
@@ -922,9 +934,10 @@ class Trainer(object):
             self.writer.close()
 
     def evaluate(self, loader, name=None):
-        self.use_tensorboardX, use_tensorboardX = False, self.use_tensorboardX
+        # self.use_tensorboardX, use_tensorboardX = False, self.use_tensorboardX
+        #why was this disabling tensorboard for eval step???
         self.evaluate_one_epoch(loader, name)
-        self.use_tensorboardX = use_tensorboardX
+        # self.use_tensorboardX = use_tensorboardX
 
     def test(self, loader, save_path=None, name=None, write_image=False):
 
@@ -1254,7 +1267,6 @@ class Trainer(object):
                 
                 loss_val = loss.item()
                 total_loss += loss_val
-
                 # only rank = 0 will perform evaluation.
                 if self.local_rank == 0:
 
@@ -1293,6 +1305,8 @@ class Trainer(object):
                 self.stats["results"].append(result if self.best_mode == 'min' else - result) # if max mode, use -result
             else:
                 self.stats["results"].append(average_loss) # if no metric, choose best by min loss
+            if self.use_tensorboardX:
+                self.writer.add_scalar("valid/loss", average_loss, self.epoch)
 
             for metric in self.metrics:
                 self.log(metric.report(), style="blue")
